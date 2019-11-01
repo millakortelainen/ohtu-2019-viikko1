@@ -123,7 +123,7 @@ public class VarastoTest {
     @Test
     public void tulostusOnOikein() {
         String varastossa = varasto.toString();
-        assertEquals("saldo = 0.0, vielä tilaa 10.0", varastossa);
+        assertEquals("saldo = 1, vielä tilaa 10.0", varastossa);
     }
 
 }
